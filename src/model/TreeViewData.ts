@@ -42,6 +42,14 @@ export default class TreeViewData {
 	public isChecked: boolean = false;
 	public sort: number = 1;
 
+	constructor(name: string, hierarchyNumber: string, children: TreeViewData[], sort: number = 1, isChecked = false) {
+		this.name = name;
+		this.hierarchyNumber = hierarchyNumber;
+		this.children = children;
+		this.sort = sort;
+		this.isChecked = isChecked;
+	}
+
 	public asString(): string {
 		return this.name + " (" + this.hierarchyNumber + ")";
 	}

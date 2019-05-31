@@ -1,6 +1,6 @@
 {
  "name": "ts-react-bootstrap-treeview",
- "version": "0.0.1",
+ "version": "0.0.2",
  "description": "A treeview reactjs component based on reactstrap written in typescript.",
  "repository": {
   "type": "git",
@@ -38,8 +38,7 @@
   "react-scripts": "^2.1.8"
  },
  "scripts": {
-  "test": "react-scripts test",
-  "build": "react-scripts build"
+  "test": "react-scripts test"
  },
  "eslintConfig": {
   "extends": "react-app"

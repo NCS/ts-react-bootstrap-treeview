@@ -1,0 +1,9 @@
+.treeView {
+    .tv-item span:hover {
+        cursor: pointer;
+    }
+
+    tr.drag-over {
+        border-bottom: 1px solid $primary;
+    }
+}
